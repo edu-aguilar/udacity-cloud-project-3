@@ -16,7 +16,7 @@ spec:
         api: external        
     spec:
       containers:
-      - image: eduaguilar/udacity-frontend:local
+      - image: eduaguilar/udacity-frontend
         name: frontend
         imagePullPolicy: Always          
         ports:
